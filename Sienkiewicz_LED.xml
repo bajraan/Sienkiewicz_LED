@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">Paweł Baran</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">fb44257</textvar>
-    <textvar name="GIT_HASH_SCH">fb44257</textvar>
+    <textvar name="GIT_HASH_SCH">8dba9b7</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -59,12 +59,12 @@
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">Section A - Title A</textvar>
+    <textvar name="SHEET_NAME_4">Sec A - Shift Register Screw Interface</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">Section B - Title B</textvar>
-    <textvar name="SHEET_NAME_6">Power - Sequencing</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_5">Sec B - Shift Register</textvar>
+    <textvar name="SHEET_NAME_6">Sec C - LED Display</textvar>
+    <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
+    <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -121,13 +121,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
+    <sheet number="4" name="/Project Architecture/Sec A - Shift Register Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
       <title_block>
-        <title>Sheet Title A</title>
+        <title>B-B Screw Interface</title>
         <company>BaJRan imgaginary industries</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
-        <source>Section A - Title A.kicad_sch</source>
+        <source>Sec A - SR Screw Interface.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -139,13 +139,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/Project Architecture/Section B - Title B/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/">
+    <sheet number="5" name="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/">
       <title_block>
-        <title>Sheet Title B</title>
+        <title>Shift Register</title>
         <company>BaJRan imgaginary industries</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
-        <source>Section B - TItle B.kicad_sch</source>
+        <source>Sec B - Shift Register.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -157,7 +157,25 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
+    <sheet number="6" name="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/">
+      <title_block>
+        <title>LED Display</title>
+        <company>BaJRan imgaginary industries</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Sec C - LED Display.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
         <title>Power - Sequencing</title>
         <company>BaJRan imgaginary industries</company>
@@ -175,7 +193,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+    <sheet number="8" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
@@ -194,8 +212,705 @@
       </title_block>
     </sheet>
   </design>
-  <components/>
-  <libparts/>
-  <libraries/>
-  <nets/>
+  <components>
+    <comp ref="U1">
+      <value>B-B Interface</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
+      <property name="Sheetname" value="Sec A - Shift Register Screw Interface"/>
+      <property name="Sheetfile" value="Sec A - SR Screw Interface.kicad_sch"/>
+      <property name="ki_keywords" value="Sienkiewicz"/>
+      <property name="ki_fp_filters" value="Sienkiewicz*"/>
+      <sheetpath names="/Project Architecture/Sec A - Shift Register Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>29870dd0-3b14-4fd1-885d-900d1f811921</tstamps>
+    </comp>
+    <comp ref="Cd1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="BOM_INFO">AIDATEK A0</field>
+        <field name="BOM_STATUS">OK</field>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="BOM_INFO" value="AIDATEK A0"/>
+      <property name="BOM_STATUS" value="OK"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>992dbe35-beb9-4766-b8f8-0276982159f6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k5</value>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>f17ce3af-4bab-496c-b7d1-6a6910edb16b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>3efcd20b-cdbe-4db5-9fb0-a7022b633bd1</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>0c13acff-995e-4dff-8dc0-f9bef47418bb</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>8114d5e2-bd55-4215-aaeb-3d73e202ac51</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>STP16CP05M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stp16cp05.pdf</datasheet>
+      <description>16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stp16cp05.pdf</field>
+        <field name="Description">16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24</field>
+      </fields>
+      <libsource lib="Driver_LED" part="STP16CP05M" description="16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24"/>
+      <property name="Sheetname" value="Sec B - Shift Register"/>
+      <property name="Sheetfile" value="Sec B - Shift Register.kicad_sch"/>
+      <property name="ki_keywords" value="Shift Register"/>
+      <property name="ki_fp_filters" value="*SOIC*7.5*15.*P1.27mm*"/>
+      <sheetpath names="/Project Architecture/Sec B - Shift Register/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>d5681cf8-cbba-4a61-99f4-e1ddb089956d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>09192eee-3c03-4eea-a267-c48e03732e40</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>5f56d1fa-1977-4ac4-ad74-fd4af33616fc</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>1b0774a0-7c1a-4412-9a9c-2543bfd2148a</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>843a14f4-17be-4b76-8d9c-b6f9d4c77f5f</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>fe7c230a-c007-4467-88de-bee152fe1ed3</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>86ea9e0c-ac52-404d-aee4-1c9f5e8ce3cd</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>86ffc04c-13ff-4261-9057-abdba3d23662</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>136a98f2-81cd-42bc-b5b0-99da2e7de83b</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>7e5f43ae-3d93-4ad2-ab3f-4a65dcb5ffba</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>29120f58-2186-4d6c-a97b-5a7981f05afb</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>0bc2bb70-0434-4015-9f58-da33df307339</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>983b75a4-2e12-4301-abfd-394cd43defc1</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>5a7f3150-4a0b-4c57-9c9a-66592e08d17d</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>d02db03d-5a6a-4995-a8b3-e10fcc2aa649</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>59da5517-d4c9-4590-a7b1-bd8170d35d71</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>YL</value>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode, small symbol</description>
+      <fields>
+        <field name="Sim.Pin">1=K 2=A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sim.Pin" value="1=K 2=A"/>
+      <property name="Sheetname" value="Sec C - LED Display"/>
+      <property name="Sheetfile" value="Sec C - LED Display.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Project Architecture/Sec C - LED Display/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f/"/>
+      <tstamps>555872bc-f79d-41cf-8195-accaea9d4948</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode, small symbol</field>
+        <field name="Sim.Pin">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="STP16CP05M">
+      <description>16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24</description>
+      <docs>https://www.st.com/resource/en/datasheet/stp16cp05.pdf</docs>
+      <footprints>
+        <fp>*SOIC*7.5*15.*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STP16CP05M</field>
+        <field name="Footprint">Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stp16cp05.pdf</field>
+        <field name="Description">16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SDI" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="LE/DM1" type="input"/>
+        <pin num="5" name="~{OUT0}" type="open_collector"/>
+        <pin num="6" name="~{OUT1}" type="open_collector"/>
+        <pin num="7" name="~{OUT2}" type="open_collector"/>
+        <pin num="8" name="~{OUT3}" type="open_collector"/>
+        <pin num="9" name="~{OUT4}" type="open_collector"/>
+        <pin num="10" name="~{OUT5}" type="open_collector"/>
+        <pin num="11" name="~{OUT6}" type="open_collector"/>
+        <pin num="12" name="~{OUT7}" type="open_collector"/>
+        <pin num="13" name="~{OUT8}" type="open_collector"/>
+        <pin num="14" name="~{OUT9}" type="open_collector"/>
+        <pin num="15" name="~{OUT10}" type="open_collector"/>
+        <pin num="16" name="~{OUT11}" type="open_collector"/>
+        <pin num="17" name="~{OUT12}" type="open_collector"/>
+        <pin num="18" name="~{OUT13}" type="open_collector"/>
+        <pin num="19" name="~{OUT14}" type="open_collector"/>
+        <pin num="20" name="~{OUT15}" type="open_collector"/>
+        <pin num="21" name="~{OE/DM2}" type="input"/>
+        <pin num="22" name="SDO" type="output"/>
+        <pin num="23" name="R-EXT" type="output"/>
+        <pin num="24" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="__Sienkiewicz" part="Sienkiewicz">
+      <footprints>
+        <fp>Sienkiewicz*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="bidirectional"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="LATCH" type="bidirectional"/>
+        <pin num="4" name="SDI" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>/usr/share/kicad/symbols//Driver_LED.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="Cd1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK" class="Default">
+      <node ref="U1" pin="1" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="3" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH" class="Default">
+      <node ref="U1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="LE/DM1" pintype="input"/>
+    </net>
+    <net code="4" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI" class="Default">
+      <node ref="U1" pin="4" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="5" name="/Project Architecture/Sec B - Shift Register/L1" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="~{OUT0}" pintype="open_collector"/>
+    </net>
+    <net code="6" name="/Project Architecture/Sec B - Shift Register/L2" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{OUT1}" pintype="open_collector"/>
+    </net>
+    <net code="7" name="/Project Architecture/Sec B - Shift Register/L3" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="~{OUT2}" pintype="open_collector"/>
+    </net>
+    <net code="8" name="/Project Architecture/Sec B - Shift Register/L4" class="Default">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="~{OUT3}" pintype="open_collector"/>
+    </net>
+    <net code="9" name="/Project Architecture/Sec B - Shift Register/L5" class="Default">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="~{OUT4}" pintype="open_collector"/>
+    </net>
+    <net code="10" name="/Project Architecture/Sec B - Shift Register/L6" class="Default">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="~{OUT5}" pintype="open_collector"/>
+    </net>
+    <net code="11" name="/Project Architecture/Sec B - Shift Register/L7" class="Default">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="~{OUT6}" pintype="open_collector"/>
+    </net>
+    <net code="12" name="/Project Architecture/Sec B - Shift Register/L8" class="Default">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="~{OUT7}" pintype="open_collector"/>
+    </net>
+    <net code="13" name="/Project Architecture/Sec B - Shift Register/L9" class="Default">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="~{OUT8}" pintype="open_collector"/>
+    </net>
+    <net code="14" name="/Project Architecture/Sec B - Shift Register/L10" class="Default">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="~{OUT9}" pintype="open_collector"/>
+    </net>
+    <net code="15" name="/Project Architecture/Sec B - Shift Register/L11" class="Default">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="~{OUT10}" pintype="open_collector"/>
+    </net>
+    <net code="16" name="/Project Architecture/Sec B - Shift Register/L12" class="Default">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="~{OUT11}" pintype="open_collector"/>
+    </net>
+    <net code="17" name="/Project Architecture/Sec B - Shift Register/L13" class="Default">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="~{OUT12}" pintype="open_collector"/>
+    </net>
+    <net code="18" name="/Project Architecture/Sec B - Shift Register/L14" class="Default">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="~{OUT13}" pintype="open_collector"/>
+    </net>
+    <net code="19" name="/Project Architecture/Sec B - Shift Register/L15" class="Default">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="~{OUT14}" pintype="open_collector"/>
+    </net>
+    <net code="20" name="/Project Architecture/Sec B - Shift Register/L16" class="Default">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="~{OUT15}" pintype="open_collector"/>
+    </net>
+    <net code="22" name="GND" class="Default">
+      <node ref="Cd1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="~{OE/DM2}" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U2-R-EXT)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="R-EXT" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U2-SDO)" class="Default">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="SDO" pintype="output"/>
+    </net>
+  </nets>
 </export>
