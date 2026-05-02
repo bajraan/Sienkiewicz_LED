@@ -1,0 +1,88 @@
+** Drc report for Sienkiewicz_LED.kicad_pcb **
+** Created on 2026-05-02T11:33:59+0000 **
+
+** Found 20 DRC violations **
+[track_dangling]: Track has unconnected end
+    ; warning
+    @(149.975001 mm, 93.0 mm): Track [+5V] on B.Cu (Sig, PWR), length 3.5250 mm
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(146.5 mm, 106.0 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(142.5 mm, 74.0 mm): Footprint D7
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(154.5 mm, 106.0 mm): Footprint D15
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(132.5 mm, 88.0 mm): Footprint D5
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(150.5 mm, 106.0 mm): Footprint D16
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(132.5 mm, 96.0 mm): Footprint D3
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(154.5 mm, 74.0 mm): Footprint D10
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(142.5 mm, 106.0 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(164.5 mm, 84.0 mm): Footprint D11
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(146.5 mm, 74.0 mm): Footprint D8
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(164.5 mm, 96.0 mm): Footprint D14
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(164.5 mm, 88.0 mm): Footprint D12
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(150.5 mm, 74.0 mm): Footprint D9
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(132.5 mm, 84.0 mm): Footprint D6
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(132.5 mm, 92.0 mm): Footprint D4
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(164.5 mm, 92.0 mm): Footprint D13
+[lib_footprint_mismatch]: Footprint 'SOIC-24W_7.5x15.4mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(148.5 mm, 83.0 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(148.5 mm, 93.0 mm): Footprint Cd1
+[lib_footprint_mismatch]: Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(158.66 mm, 88.715 mm): Footprint R1
+
+** Found 0 unconnected pads **
+
+** Found 7 Footprint errors **
+[missing_footprint]: Missing footprint TP1 (TestPoint)
+    ; warning
+[missing_footprint]: Missing footprint TP2 (TestPoint)
+    ; warning
+[missing_footprint]: Missing footprint TP3 (TestPoint)
+    ; warning
+[extra_footprint]: Extra footprint
+    ; warning
+    @(148.5 mm, 81.0 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(154.5 mm, 93.0 mm): Footprint VCC
+[extra_footprint]: Extra footprint
+    ; warning
+    @(158.66 mm, 86.175 mm): Footprint OE
+[extra_footprint]: Extra footprint
+    ; warning
+    @(142.5 mm, 93.0 mm): Footprint GND
+
+** End of Report **
