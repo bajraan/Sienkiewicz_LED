@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">db6f54d</textvar>
+    <textvar name="GIT_HASH_PCB">9ff92d6</textvar>
     <textvar name="GIT_HASH_SCH">8dba9b7</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
