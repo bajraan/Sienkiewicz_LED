@@ -1016,7 +1016,7 @@
 			(uuid "fc8d9108-fca8-43d9-ac47-610dd1388d41")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "U1")
 					(unit 1)
@@ -1082,7 +1082,7 @@
 			(uuid "9a2e2693-0ef3-4833-ae3c-10d4ec44bc95")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "#FLG01")
 					(unit 1)
@@ -1149,7 +1149,7 @@
 			(uuid "1b88bd46-a9fa-4d61-b317-a10cf2a02dde")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "#PWR01")
 					(unit 1)
@@ -1282,7 +1282,7 @@
 			(uuid "d92a7745-c794-4990-b85b-0cb06378ecb3")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "#PWR03")
 					(unit 1)

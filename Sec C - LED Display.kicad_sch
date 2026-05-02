@@ -1677,7 +1677,7 @@
 			(uuid "6d0565f3-5709-44e2-b34f-4c44611126c1")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "D1")
 					(unit 1)
@@ -2883,7 +2883,7 @@
 			(uuid "7d60971c-3d48-4604-8154-5afdf1e4bc95")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "#PWR09")
 					(unit 1)

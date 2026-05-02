@@ -2542,7 +2542,7 @@
 			(uuid "e85d709f-89d1-4ef3-b484-47f513fa8d21")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR07")
 					(unit 1)
@@ -2608,7 +2608,7 @@
 			(uuid "0f0de4d3-7753-47fc-a251-fd877151ff8d")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR02")
 					(unit 1)
@@ -2742,7 +2742,7 @@
 			(uuid "d592faf2-f826-4a5d-b9d1-e59cb65852e6")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "TP3")
 					(unit 1)
@@ -3054,7 +3054,7 @@
 			(uuid "8a42da96-69bd-4263-a88b-c6a64fcc26b9")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR04")
 					(unit 1)
@@ -3121,7 +3121,7 @@
 			(uuid "dd333dd1-534a-4114-9d3c-8617d0f8fc2e")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR05")
 					(unit 1)
@@ -3256,7 +3256,7 @@
 			(uuid "f661d405-be7c-43b7-8465-de40aca99a91")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "U2")
 					(unit 1)
@@ -3323,7 +3323,7 @@
 			(uuid "6bc86e48-f5f5-4047-9b90-af08d9f1db3d")
 		)
 		(instances
-			(project ""
+			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "R1")
 					(unit 1)
