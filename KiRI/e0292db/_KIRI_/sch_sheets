@@ -1,0 +1,8 @@
+Sienkiewicz_LED|Sienkiewicz_LED.kicad_sch||Sienkiewicz_LED|Sienkiewicz_LED
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|Sienkiewicz_LED-Block Diagram
+Power - Sequencing|Power - Sequencing.kicad_sch||Power - Sequencing|Sienkiewicz_LED-Power - Sequencing
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|Sienkiewicz_LED-Project Architecture
+Sec A - SR Screw Interface|Sec A - SR Screw Interface.kicad_sch||Sec A - Shift Register Screw Interface|Sienkiewicz_LED-Project Architecture-Sec A - Shift Register Screw Interface
+Sec B - Shift Register|Sec B - Shift Register.kicad_sch||Sec B - Shift Register|Sienkiewicz_LED-Project Architecture-Sec B - Shift Register
+Sec C - LED Display|Sec C - LED Display.kicad_sch||Sec C - LED Display|Sienkiewicz_LED-Project Architecture-Sec C - LED Display
+Revision History|Revision History.kicad_sch||Revision History|Sienkiewicz_LED-Revision History
