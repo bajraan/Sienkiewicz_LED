@@ -9362,7 +9362,7 @@
 		)
 		(property "Value" "GND"
 			(at 3 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "f4b77221-c22f-4ebd-9a36-e3c9ff73522a")
 			(effects
 				(font
@@ -9783,17 +9783,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bdd41a60-e625-4980-ab3c-73a0345595ca")
-	)
-	(gr_circle
-		(center 140.5 95)
-		(end 140.5 96)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "98056cab-5811-48c0-bc08-6e942d9831b4")
 	)
 	(gr_line
 		(start 146.025092 97.525111)
