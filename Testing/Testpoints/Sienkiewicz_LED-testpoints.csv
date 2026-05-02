@@ -1,3 +1,1 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP2,+5V,Power 5V,90.5000,13.0000,bottom,SMT,TestPoint,TestPoint_Pad_D1.0mm
-TP3,Net-(U2-SDO),Default,94.6600,19.8250,bottom,SMT,TestPoint,TestPoint_Pad_D1.0mm
