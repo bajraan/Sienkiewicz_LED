@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "__QR__Github.Sienkiewicz_LED")(type "KiCad")(uri "${KIPRJMOD}/__QR/__QR__Github.Sienkiewicz_LED.pretty")(options "")(descr ""))
+)

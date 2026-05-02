@@ -1,0 +1,5 @@
+Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
+18,0.25mm (9.84mils),PTH,Round,"T.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Via
+40,0.50mm (19.69mils),PTH,Round,"T.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+5,3.20mm (125.98mils),PTH,Round,"T.Cu (Sig, PWR) - B.Cu (Sig, PWR)",Pad
+Total 63,,,,,
