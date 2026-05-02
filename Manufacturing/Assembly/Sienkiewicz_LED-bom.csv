@@ -1,6 +1,6 @@
 Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
 1,1,Cd1,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,
-2,16,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16,YL,~,,"Light emitting diode, small symbol",,,
-3,1,R1,1k5,~,,"Resistor, small symbol",,,
-4,1,U1,B-B Interface,,,,,,
+2,16,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16,YL,~,LED_1206_3216Metric,"Light emitting diode, small symbol",,,
+3,1,R1,1k5,~,R_1206_3216Metric,"Resistor, small symbol",,,
+4,1,U1,B-B Interface,,Sienkiewicz,,,,
 5,1,U2,STP16CP05M,https://www.st.com/resource/en/datasheet/stp16cp05.pdf,SOIC-24W_7.5x15.4mm_P1.27mm,"16-bit constant current LED sink driver, 5..100mA output current, 20V driving capability, 3.0..5.5V power supply, SOIC-24",,,
