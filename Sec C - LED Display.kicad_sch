@@ -1634,7 +1634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 55.88 90)
 			(effects
 				(font
@@ -1687,13 +1687,393 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb106c5-bdb7-4a28-871d-a93be778e55a")
+		(property "Reference" "D12"
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c522334-1eaf-4e54-adf2-8143e67de9fa")
+		)
+		(pin "2"
+			(uuid "ca949f62-32ff-4e86-8c6b-123484494203")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2abd545c-1954-4dbe-86fa-ca1cec7c9b2a")
+		(property "Reference" "D16"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbc3fcc2-9864-4ae9-b601-d5c2a2140b18")
+		)
+		(pin "2"
+			(uuid "45a2292c-b5a5-4f4b-b392-78f282671936")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4456d387-c61f-4964-86ba-6fdcc8be9fd4")
+		(property "Reference" "D2"
+			(at 149.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb914768-faf8-4073-8e3f-8835f6f04396")
+		)
+		(pin "2"
+			(uuid "5a2a823f-0d5a-4a79-8391-df217f3c9d0e")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52d40e14-101c-4a42-bd21-a43cc03dd1c5")
+		(property "Reference" "D3"
+			(at 149.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df7c077-8cb2-444c-be95-7709c5325326")
+		)
+		(pin "2"
+			(uuid "00768c11-78f2-4519-8858-12925260fb8b")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d42fb96-43ee-4255-9409-f2ef58faa62b")
+		(property "Reference" "D15"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a491f826-2653-4971-910d-02dbe62814a8")
+		)
+		(pin "2"
+			(uuid "871a22f4-af1b-4a42-ba14-8c0a3fc79fa7")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
 		(at 152.4 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0bc2bb70-0434-4015-9f58-da33df307339")
+		(uuid "6a2a19d8-47cd-4ab1-a153-ceef9462aeb5")
 		(property "Reference" "D11"
 			(at 149.86 80.01 0)
 			(effects
@@ -1710,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 81.28 90)
 			(effects
 				(font
@@ -1747,10 +2127,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1fc2520-e97a-475a-afc9-d75b99fa5073")
+			(uuid "a2748689-ea4e-4f5b-abb6-57180d888cc6")
 		)
 		(pin "2"
-			(uuid "82648a98-160e-4fa2-b429-3ee7df9268b6")
+			(uuid "f7d2acbd-2a50-46a7-8c71-6df24809f07d")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
@@ -1769,7 +2149,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "136a98f2-81cd-42bc-b5b0-99da2e7de83b")
+		(uuid "6d63f7cb-2d89-4448-94ae-260c506eb9a4")
 		(property "Reference" "D8"
 			(at 149.86 72.39 0)
 			(effects
@@ -1786,7 +2166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 73.66 90)
 			(effects
 				(font
@@ -1823,319 +2203,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c49ff9f-3fa6-4646-b0a3-7f597a3e1e48")
+			(uuid "080fb917-e5ac-4fa4-81fa-00c896e60ef0")
 		)
 		(pin "2"
-			(uuid "daab4eed-8c61-42f5-b5ec-cdc555cd6d5b")
+			(uuid "10325811-7fd0-4b8e-9bb3-685c5e2f73fa")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b0774a0-7c1a-4412-9a9c-2543bfd2148a")
-		(property "Reference" "D3"
-			(at 149.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f769fcf-88d5-40df-af64-8177ca016d4d")
-		)
-		(pin "2"
-			(uuid "74f736a6-6994-49fe-9b10-864e4a3af0ff")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29120f58-2186-4d6c-a97b-5a7981f05afb")
-		(property "Reference" "D10"
-			(at 149.86 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f5d89de-66a2-4d1f-bb85-d3a6ecef8d91")
-		)
-		(pin "2"
-			(uuid "b9608c77-8bf0-45be-891b-fff9cfaaa07d")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "555872bc-f79d-41cf-8195-accaea9d4948")
-		(property "Reference" "D16"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5c69871-af51-4076-9358-1fce1818e23c")
-		)
-		(pin "2"
-			(uuid "7fb2b897-f2b9-49a3-aa52-84319f533d36")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59da5517-d4c9-4590-a7b1-bd8170d35d71")
-		(property "Reference" "D15"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "702bb02d-a74d-4fb7-aa36-1b0e5bf63ea5")
-		)
-		(pin "2"
-			(uuid "7312c0bd-0954-431c-97fd-947c586c286d")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2225,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5a7f3150-4a0b-4c57-9c9a-66592e08d17d")
+		(uuid "79dce283-c643-4d17-8a84-2bdd975c35ab")
 		(property "Reference" "D13"
 			(at 149.86 85.09 0)
 			(effects
@@ -2166,7 +2242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 86.36 90)
 			(effects
 				(font
@@ -2203,319 +2279,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc71f769-ac3e-4a9b-8cf7-f9d67030ade6")
+			(uuid "a979be53-1fff-406b-8586-ed14586b7f25")
 		)
 		(pin "2"
-			(uuid "fd6cec3d-a683-4d55-8f6b-d5d276fd0c33")
+			(uuid "cac44bc5-1f31-4a19-bcf8-b1cd805a4f8f")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f56d1fa-1977-4ac4-ad74-fd4af33616fc")
-		(property "Reference" "D2"
-			(at 149.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c2c6f11-bc6a-426d-af72-080f34a319e2")
-		)
-		(pin "2"
-			(uuid "d4f252ec-3cf3-4f91-965d-382634ecb77d")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e5f43ae-3d93-4ad2-ab3f-4a65dcb5ffba")
-		(property "Reference" "D9"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce2ea44f-186a-470e-bce7-c1b7fec47f7f")
-		)
-		(pin "2"
-			(uuid "99844fd4-5270-44e1-88e6-ac6b747ae3dd")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "843a14f4-17be-4b76-8d9c-b6f9d4c77f5f")
-		(property "Reference" "D4"
-			(at 149.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "634a7b20-c972-49a6-8381-185a001faa7c")
-		)
-		(pin "2"
-			(uuid "81918a14-ee42-4e5e-9b14-d0219601485d")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86ea9e0c-ac52-404d-aee4-1c9f5e8ce3cd")
-		(property "Reference" "D6"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed362325-1ead-4ee1-8d1e-bbce38ecaf06")
-		)
-		(pin "2"
-			(uuid "024a1990-7cb3-4d2f-9a03-96265e7c874e")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2529,7 +2301,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86ffc04c-13ff-4261-9057-abdba3d23662")
+		(uuid "a0cdc635-1aa8-410b-9b4e-2afc508f3e91")
 		(property "Reference" "D7"
 			(at 149.86 69.85 0)
 			(effects
@@ -2546,7 +2318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 71.12 90)
 			(effects
 				(font
@@ -2583,10 +2355,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d283896-b74a-4386-a502-96a57f657e78")
+			(uuid "3b54aa17-f9f0-4971-ae17-d758526e2b5d")
 		)
 		(pin "2"
-			(uuid "9ab88f30-c539-47c6-b0bd-3892b9987cdd")
+			(uuid "bae6c8f1-c142-477e-8186-e17591258f1d")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
@@ -2599,15 +2371,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 152.4 83.82 0)
+		(at 152.4 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "983b75a4-2e12-4301-abfd-394cd43defc1")
-		(property "Reference" "D12"
-			(at 149.86 82.55 0)
+		(uuid "a598da18-7f6a-4cb9-bf64-0ddf5f132178")
+		(property "Reference" "D5"
+			(at 149.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,15 +2387,15 @@
 			)
 		)
 		(property "Value" "YL"
-			(at 154.94 82.55 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 83.82 90)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 83.82 90)
+			(at 152.4 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2413,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 83.82 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2422,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 83.82 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,15 +2431,167 @@
 			)
 		)
 		(pin "1"
-			(uuid "f92e58af-d4dc-4a43-8e4b-89cb7759810c")
+			(uuid "d380901a-2b57-48e1-8fed-057644b80121")
 		)
 		(pin "2"
-			(uuid "fa5f5ab5-6e4d-49ee-9082-3bcd7fa0b675")
+			(uuid "1f34965e-87b5-4d64-a485-7272003d15cc")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D12")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d51e1f72-1061-47a6-87e7-f3d8b8ffaf2a")
+		(property "Reference" "D6"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b77a89b-33ca-4a44-a371-cd5dbfaa0b89")
+		)
+		(pin "2"
+			(uuid "5facf2ad-b88a-44f2-81e4-3e26bab9c69c")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6ec9d64-98c3-4fb2-8687-d59cff9e6d91")
+		(property "Reference" "D4"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfd6507d-9704-4751-85e2-fae376224805")
+		)
+		(pin "2"
+			(uuid "01acbe63-2f81-4653-b2df-a08e6dae1edd")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2681,7 +2605,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d02db03d-5a6a-4995-a8b3-e10fcc2aa649")
+		(uuid "d7e566de-35a4-470d-9291-b856df197245")
 		(property "Reference" "D14"
 			(at 149.86 87.63 0)
 			(effects
@@ -2698,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 152.4 88.9 90)
 			(effects
 				(font
@@ -2735,15 +2659,167 @@
 			)
 		)
 		(pin "1"
-			(uuid "8badc4d1-a1b3-400a-a77a-6f4a255b4575")
+			(uuid "9c5d71ca-5776-4b26-98e5-cf9f4d9d60b3")
 		)
 		(pin "2"
-			(uuid "cb3f158a-352b-4894-909d-508b53181fd3")
+			(uuid "c2387483-5869-44fc-a80e-12a6d13d6b61")
 		)
 		(instances
 			(project "Sienkiewicz_LED"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd072f7f-d3a2-4d8f-888e-2cc5efcac9a9")
+		(property "Reference" "D10"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "620a27ef-041f-4256-a442-dbfa653f839d")
+		)
+		(pin "2"
+			(uuid "08e07b6e-465c-4663-94e4-25ef3618585e")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 152.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deedac18-0450-4ef5-a5d4-271454ec9767")
+		(property "Reference" "D9"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YL"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 152.4 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d678d9f-3741-4465-a70a-159017c6b0f3")
+		)
+		(pin "2"
+			(uuid "8f52724e-092d-4ba9-81d6-d92329df84dc")
+		)
+		(instances
+			(project "Sienkiewicz_LED"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2810,82 +2886,6 @@
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 152.4 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe7c230a-c007-4467-88de-bee152fe1ed3")
-		(property "Reference" "D5"
-			(at 149.86 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YL"
-			(at 154.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e4811e7-c83f-489c-9a21-9d3035287d06")
-		)
-		(pin "2"
-			(uuid "50882e2d-83c1-4283-bbfe-ff001f25f4a6")
-		)
-		(instances
-			(project "Sienkiewicz_LED"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/b15197cb-f2ca-4727-8afd-b26eb51b3c3f"
-					(reference "D5")
 					(unit 1)
 				)
 			)

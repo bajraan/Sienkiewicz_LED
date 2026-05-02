@@ -5,7 +5,7 @@
 	stroke="none">
 
 	<!-- QrBackground  -->
-	<g id="QrBackground" fill="#FFFFFF">
+	<g id="QrBackground" fill="#011938">
 		<rect width="8" height="8" x="23" y="23" rx="1" ry="1" />
 		<rect width="31" height="31" rx="4" ry="4" />
 	</g>
@@ -14,35 +14,37 @@
 	<g id="QrBody">
 
 		<!-- BODY     -->
-		<g id="BODY" fill="#011620">
-			<circle cx="10.5" cy="1.5" r="0.5"/>
-			<circle cx="12.5" cy="1.5" r="0.5"/>
+		<g id="BODY" fill="#c7ef00">
+			<circle cx="11.5" cy="1.5" r="0.5"/>
 			<circle cx="13.5" cy="1.5" r="0.5"/>
 			<circle cx="14.5" cy="1.5" r="0.5"/>
+			<circle cx="15.5" cy="1.5" r="0.5"/>
 			<circle cx="16.5" cy="1.5" r="0.5"/>
 			<circle cx="18.5" cy="1.5" r="0.5"/>
 			<circle cx="19.5" cy="1.5" r="0.5"/>
 			<circle cx="20.5" cy="1.5" r="0.5"/>
 			<circle cx="21.5" cy="1.5" r="0.5"/>
-			<circle cx="10.5" cy="2.5" r="0.5"/>
-			<circle cx="11.5" cy="2.5" r="0.5"/>
+			<circle cx="12.5" cy="2.5" r="0.5"/>
 			<circle cx="14.5" cy="2.5" r="0.5"/>
 			<circle cx="15.5" cy="2.5" r="0.5"/>
 			<circle cx="16.5" cy="2.5" r="0.5"/>
+			<circle cx="17.5" cy="2.5" r="0.5"/>
 			<circle cx="18.5" cy="2.5" r="0.5"/>
 			<circle cx="21.5" cy="2.5" r="0.5"/>
 			<circle cx="9.5" cy="3.5" r="0.5"/>
+			<circle cx="12.5" cy="3.5" r="0.5"/>
+			<circle cx="13.5" cy="3.5" r="0.5"/>
 			<circle cx="14.5" cy="3.5" r="0.5"/>
 			<circle cx="16.5" cy="3.5" r="0.5"/>
 			<circle cx="19.5" cy="3.5" r="0.5"/>
 			<circle cx="21.5" cy="3.5" r="0.5"/>
 			<circle cx="9.5" cy="4.5" r="0.5"/>
-			<circle cx="10.5" cy="4.5" r="0.5"/>
 			<circle cx="11.5" cy="4.5" r="0.5"/>
 			<circle cx="15.5" cy="4.5" r="0.5"/>
+			<circle cx="16.5" cy="4.5" r="0.5"/>
 			<circle cx="18.5" cy="4.5" r="0.5"/>
 			<circle cx="9.5" cy="5.5" r="0.5"/>
-			<circle cx="10.5" cy="5.5" r="0.5"/>
+			<circle cx="11.5" cy="5.5" r="0.5"/>
 			<circle cx="16.5" cy="5.5" r="0.5"/>
 			<circle cx="17.5" cy="5.5" r="0.5"/>
 			<circle cx="18.5" cy="5.5" r="0.5"/>
@@ -50,10 +52,7 @@
 			<circle cx="20.5" cy="5.5" r="0.5"/>
 			<circle cx="21.5" cy="5.5" r="0.5"/>
 			<circle cx="9.5" cy="6.5" r="0.5"/>
-			<circle cx="11.5" cy="6.5" r="0.5"/>
-			<circle cx="12.5" cy="6.5" r="0.5"/>
-			<circle cx="16.5" cy="6.5" r="0.5"/>
-			<circle cx="17.5" cy="6.5" r="0.5"/>
+			<circle cx="13.5" cy="6.5" r="0.5"/>
 			<circle cx="18.5" cy="6.5" r="0.5"/>
 			<circle cx="19.5" cy="6.5" r="0.5"/>
 			<circle cx="21.5" cy="6.5" r="0.5"/>
@@ -65,17 +64,18 @@
 			<circle cx="19.5" cy="7.5" r="0.5"/>
 			<circle cx="21.5" cy="7.5" r="0.5"/>
 			<circle cx="9.5" cy="8.5" r="0.5"/>
+			<circle cx="10.5" cy="8.5" r="0.5"/>
 			<circle cx="11.5" cy="8.5" r="0.5"/>
 			<circle cx="15.5" cy="8.5" r="0.5"/>
+			<circle cx="17.5" cy="8.5" r="0.5"/>
 			<circle cx="1.5" cy="9.5" r="0.5"/>
 			<circle cx="3.5" cy="9.5" r="0.5"/>
 			<circle cx="4.5" cy="9.5" r="0.5"/>
 			<circle cx="5.5" cy="9.5" r="0.5"/>
 			<circle cx="6.5" cy="9.5" r="0.5"/>
 			<circle cx="7.5" cy="9.5" r="0.5"/>
-			<circle cx="11.5" cy="9.5" r="0.5"/>
-			<circle cx="13.5" cy="9.5" r="0.5"/>
-			<circle cx="16.5" cy="9.5" r="0.5"/>
+			<circle cx="10.5" cy="9.5" r="0.5"/>
+			<circle cx="12.5" cy="9.5" r="0.5"/>
 			<circle cx="18.5" cy="9.5" r="0.5"/>
 			<circle cx="20.5" cy="9.5" r="0.5"/>
 			<circle cx="23.5" cy="9.5" r="0.5"/>
@@ -85,15 +85,13 @@
 			<circle cx="27.5" cy="9.5" r="0.5"/>
 			<circle cx="3.5" cy="10.5" r="0.5"/>
 			<circle cx="4.5" cy="10.5" r="0.5"/>
-			<circle cx="6.5" cy="10.5" r="0.5"/>
 			<circle cx="8.5" cy="10.5" r="0.5"/>
-			<circle cx="9.5" cy="10.5" r="0.5"/>
 			<circle cx="10.5" cy="10.5" r="0.5"/>
-			<circle cx="13.5" cy="10.5" r="0.5"/>
+			<circle cx="11.5" cy="10.5" r="0.5"/>
+			<circle cx="12.5" cy="10.5" r="0.5"/>
 			<circle cx="14.5" cy="10.5" r="0.5"/>
 			<circle cx="15.5" cy="10.5" r="0.5"/>
 			<circle cx="16.5" cy="10.5" r="0.5"/>
-			<circle cx="17.5" cy="10.5" r="0.5"/>
 			<circle cx="18.5" cy="10.5" r="0.5"/>
 			<circle cx="19.5" cy="10.5" r="0.5"/>
 			<circle cx="20.5" cy="10.5" r="0.5"/>
@@ -109,21 +107,22 @@
 			<circle cx="2.5" cy="11.5" r="0.5"/>
 			<circle cx="3.5" cy="11.5" r="0.5"/>
 			<circle cx="4.5" cy="11.5" r="0.5"/>
+			<circle cx="6.5" cy="11.5" r="0.5"/>
 			<circle cx="7.5" cy="11.5" r="0.5"/>
-			<circle cx="10.5" cy="11.5" r="0.5"/>
+			<circle cx="8.5" cy="11.5" r="0.5"/>
+			<circle cx="9.5" cy="11.5" r="0.5"/>
 			<circle cx="11.5" cy="11.5" r="0.5"/>
 			<circle cx="12.5" cy="11.5" r="0.5"/>
-			<circle cx="13.5" cy="11.5" r="0.5"/>
 			<circle cx="14.5" cy="11.5" r="0.5"/>
 			<circle cx="15.5" cy="11.5" r="0.5"/>
 			<circle cx="16.5" cy="11.5" r="0.5"/>
-			<circle cx="17.5" cy="11.5" r="0.5"/>
 			<circle cx="19.5" cy="11.5" r="0.5"/>
 			<circle cx="21.5" cy="11.5" r="0.5"/>
 			<circle cx="22.5" cy="11.5" r="0.5"/>
-			<circle cx="3.5" cy="12.5" r="0.5"/>
+			<circle cx="2.5" cy="12.5" r="0.5"/>
 			<circle cx="5.5" cy="12.5" r="0.5"/>
-			<circle cx="13.5" cy="12.5" r="0.5"/>
+			<circle cx="9.5" cy="12.5" r="0.5"/>
+			<circle cx="10.5" cy="12.5" r="0.5"/>
 			<circle cx="14.5" cy="12.5" r="0.5"/>
 			<circle cx="16.5" cy="12.5" r="0.5"/>
 			<circle cx="17.5" cy="12.5" r="0.5"/>
@@ -131,25 +130,26 @@
 			<circle cx="25.5" cy="12.5" r="0.5"/>
 			<circle cx="26.5" cy="12.5" r="0.5"/>
 			<circle cx="28.5" cy="12.5" r="0.5"/>
+			<circle cx="1.5" cy="13.5" r="0.5"/>
 			<circle cx="3.5" cy="13.5" r="0.5"/>
 			<circle cx="4.5" cy="13.5" r="0.5"/>
-			<circle cx="6.5" cy="13.5" r="0.5"/>
+			<circle cx="5.5" cy="13.5" r="0.5"/>
 			<circle cx="7.5" cy="13.5" r="0.5"/>
-			<circle cx="9.5" cy="13.5" r="0.5"/>
-			<circle cx="11.5" cy="13.5" r="0.5"/>
+			<circle cx="8.5" cy="13.5" r="0.5"/>
+			<circle cx="12.5" cy="13.5" r="0.5"/>
 			<circle cx="13.5" cy="13.5" r="0.5"/>
 			<circle cx="15.5" cy="13.5" r="0.5"/>
 			<circle cx="16.5" cy="13.5" r="0.5"/>
-			<circle cx="17.5" cy="13.5" r="0.5"/>
 			<circle cx="18.5" cy="13.5" r="0.5"/>
 			<circle cx="21.5" cy="13.5" r="0.5"/>
 			<circle cx="26.5" cy="13.5" r="0.5"/>
 			<circle cx="27.5" cy="13.5" r="0.5"/>
-			<circle cx="1.5" cy="14.5" r="0.5"/>
 			<circle cx="2.5" cy="14.5" r="0.5"/>
-			<circle cx="4.5" cy="14.5" r="0.5"/>
+			<circle cx="5.5" cy="14.5" r="0.5"/>
+			<circle cx="6.5" cy="14.5" r="0.5"/>
 			<circle cx="8.5" cy="14.5" r="0.5"/>
-			<circle cx="10.5" cy="14.5" r="0.5"/>
+			<circle cx="9.5" cy="14.5" r="0.5"/>
+			<circle cx="11.5" cy="14.5" r="0.5"/>
 			<circle cx="13.5" cy="14.5" r="0.5"/>
 			<circle cx="16.5" cy="14.5" r="0.5"/>
 			<circle cx="17.5" cy="14.5" r="0.5"/>
@@ -161,10 +161,16 @@
 			<circle cx="25.5" cy="14.5" r="0.5"/>
 			<circle cx="26.5" cy="14.5" r="0.5"/>
 			<circle cx="29.5" cy="14.5" r="0.5"/>
+			<circle cx="1.5" cy="15.5" r="0.5"/>
+			<circle cx="2.5" cy="15.5" r="0.5"/>
+			<circle cx="3.5" cy="15.5" r="0.5"/>
+			<circle cx="4.5" cy="15.5" r="0.5"/>
 			<circle cx="5.5" cy="15.5" r="0.5"/>
 			<circle cx="7.5" cy="15.5" r="0.5"/>
+			<circle cx="8.5" cy="15.5" r="0.5"/>
 			<circle cx="9.5" cy="15.5" r="0.5"/>
 			<circle cx="10.5" cy="15.5" r="0.5"/>
+			<circle cx="11.5" cy="15.5" r="0.5"/>
 			<circle cx="16.5" cy="15.5" r="0.5"/>
 			<circle cx="17.5" cy="15.5" r="0.5"/>
 			<circle cx="21.5" cy="15.5" r="0.5"/>
@@ -172,13 +178,11 @@
 			<circle cx="23.5" cy="15.5" r="0.5"/>
 			<circle cx="24.5" cy="15.5" r="0.5"/>
 			<circle cx="26.5" cy="15.5" r="0.5"/>
-			<circle cx="1.5" cy="16.5" r="0.5"/>
-			<circle cx="2.5" cy="16.5" r="0.5"/>
-			<circle cx="3.5" cy="16.5" r="0.5"/>
-			<circle cx="5.5" cy="16.5" r="0.5"/>
-			<circle cx="8.5" cy="16.5" r="0.5"/>
+			<circle cx="9.5" cy="16.5" r="0.5"/>
 			<circle cx="12.5" cy="16.5" r="0.5"/>
+			<circle cx="13.5" cy="16.5" r="0.5"/>
 			<circle cx="15.5" cy="16.5" r="0.5"/>
+			<circle cx="16.5" cy="16.5" r="0.5"/>
 			<circle cx="17.5" cy="16.5" r="0.5"/>
 			<circle cx="20.5" cy="16.5" r="0.5"/>
 			<circle cx="21.5" cy="16.5" r="0.5"/>
@@ -186,15 +190,14 @@
 			<circle cx="23.5" cy="16.5" r="0.5"/>
 			<circle cx="24.5" cy="16.5" r="0.5"/>
 			<circle cx="26.5" cy="16.5" r="0.5"/>
-			<circle cx="1.5" cy="17.5" r="0.5"/>
 			<circle cx="2.5" cy="17.5" r="0.5"/>
-			<circle cx="3.5" cy="17.5" r="0.5"/>
 			<circle cx="4.5" cy="17.5" r="0.5"/>
-			<circle cx="5.5" cy="17.5" r="0.5"/>
 			<circle cx="7.5" cy="17.5" r="0.5"/>
+			<circle cx="8.5" cy="17.5" r="0.5"/>
+			<circle cx="9.5" cy="17.5" r="0.5"/>
 			<circle cx="10.5" cy="17.5" r="0.5"/>
-			<circle cx="11.5" cy="17.5" r="0.5"/>
 			<circle cx="12.5" cy="17.5" r="0.5"/>
+			<circle cx="16.5" cy="17.5" r="0.5"/>
 			<circle cx="18.5" cy="17.5" r="0.5"/>
 			<circle cx="20.5" cy="17.5" r="0.5"/>
 			<circle cx="27.5" cy="17.5" r="0.5"/>
@@ -202,10 +205,10 @@
 			<circle cx="29.5" cy="17.5" r="0.5"/>
 			<circle cx="1.5" cy="18.5" r="0.5"/>
 			<circle cx="2.5" cy="18.5" r="0.5"/>
+			<circle cx="3.5" cy="18.5" r="0.5"/>
 			<circle cx="6.5" cy="18.5" r="0.5"/>
-			<circle cx="8.5" cy="18.5" r="0.5"/>
-			<circle cx="9.5" cy="18.5" r="0.5"/>
-			<circle cx="11.5" cy="18.5" r="0.5"/>
+			<circle cx="10.5" cy="18.5" r="0.5"/>
+			<circle cx="12.5" cy="18.5" r="0.5"/>
 			<circle cx="14.5" cy="18.5" r="0.5"/>
 			<circle cx="15.5" cy="18.5" r="0.5"/>
 			<circle cx="16.5" cy="18.5" r="0.5"/>
@@ -216,11 +219,12 @@
 			<circle cx="28.5" cy="18.5" r="0.5"/>
 			<circle cx="29.5" cy="18.5" r="0.5"/>
 			<circle cx="1.5" cy="19.5" r="0.5"/>
-			<circle cx="3.5" cy="19.5" r="0.5"/>
+			<circle cx="4.5" cy="19.5" r="0.5"/>
 			<circle cx="5.5" cy="19.5" r="0.5"/>
+			<circle cx="6.5" cy="19.5" r="0.5"/>
 			<circle cx="7.5" cy="19.5" r="0.5"/>
 			<circle cx="9.5" cy="19.5" r="0.5"/>
-			<circle cx="11.5" cy="19.5" r="0.5"/>
+			<circle cx="13.5" cy="19.5" r="0.5"/>
 			<circle cx="14.5" cy="19.5" r="0.5"/>
 			<circle cx="15.5" cy="19.5" r="0.5"/>
 			<circle cx="16.5" cy="19.5" r="0.5"/>
@@ -231,8 +235,12 @@
 			<circle cx="27.5" cy="19.5" r="0.5"/>
 			<circle cx="1.5" cy="20.5" r="0.5"/>
 			<circle cx="4.5" cy="20.5" r="0.5"/>
-			<circle cx="8.5" cy="20.5" r="0.5"/>
-			<circle cx="10.5" cy="20.5" r="0.5"/>
+			<circle cx="5.5" cy="20.5" r="0.5"/>
+			<circle cx="6.5" cy="20.5" r="0.5"/>
+			<circle cx="9.5" cy="20.5" r="0.5"/>
+			<circle cx="11.5" cy="20.5" r="0.5"/>
+			<circle cx="12.5" cy="20.5" r="0.5"/>
+			<circle cx="13.5" cy="20.5" r="0.5"/>
 			<circle cx="14.5" cy="20.5" r="0.5"/>
 			<circle cx="16.5" cy="20.5" r="0.5"/>
 			<circle cx="17.5" cy="20.5" r="0.5"/>
@@ -244,12 +252,13 @@
 			<circle cx="29.5" cy="20.5" r="0.5"/>
 			<circle cx="1.5" cy="21.5" r="0.5"/>
 			<circle cx="3.5" cy="21.5" r="0.5"/>
-			<circle cx="5.5" cy="21.5" r="0.5"/>
+			<circle cx="4.5" cy="21.5" r="0.5"/>
+			<circle cx="6.5" cy="21.5" r="0.5"/>
 			<circle cx="7.5" cy="21.5" r="0.5"/>
-			<circle cx="11.5" cy="21.5" r="0.5"/>
+			<circle cx="8.5" cy="21.5" r="0.5"/>
+			<circle cx="12.5" cy="21.5" r="0.5"/>
+			<circle cx="13.5" cy="21.5" r="0.5"/>
 			<circle cx="15.5" cy="21.5" r="0.5"/>
-			<circle cx="16.5" cy="21.5" r="0.5"/>
-			<circle cx="17.5" cy="21.5" r="0.5"/>
 			<circle cx="18.5" cy="21.5" r="0.5"/>
 			<circle cx="20.5" cy="21.5" r="0.5"/>
 			<circle cx="21.5" cy="21.5" r="0.5"/>
@@ -259,7 +268,8 @@
 			<circle cx="25.5" cy="21.5" r="0.5"/>
 			<circle cx="27.5" cy="21.5" r="0.5"/>
 			<circle cx="9.5" cy="22.5" r="0.5"/>
-			<circle cx="12.5" cy="22.5" r="0.5"/>
+			<circle cx="10.5" cy="22.5" r="0.5"/>
+			<circle cx="11.5" cy="22.5" r="0.5"/>
 			<circle cx="13.5" cy="22.5" r="0.5"/>
 			<circle cx="16.5" cy="22.5" r="0.5"/>
 			<circle cx="17.5" cy="22.5" r="0.5"/>
@@ -271,8 +281,7 @@
 			<circle cx="27.5" cy="22.5" r="0.5"/>
 			<circle cx="28.5" cy="22.5" r="0.5"/>
 			<circle cx="29.5" cy="22.5" r="0.5"/>
-			<circle cx="12.5" cy="23.5" r="0.5"/>
-			<circle cx="13.5" cy="23.5" r="0.5"/>
+			<circle cx="10.5" cy="23.5" r="0.5"/>
 			<circle cx="16.5" cy="23.5" r="0.5"/>
 			<circle cx="17.5" cy="23.5" r="0.5"/>
 			<circle cx="19.5" cy="23.5" r="0.5"/>
@@ -283,7 +292,6 @@
 			<circle cx="27.5" cy="23.5" r="0.5"/>
 			<circle cx="9.5" cy="24.5" r="0.5"/>
 			<circle cx="10.5" cy="24.5" r="0.5"/>
-			<circle cx="13.5" cy="24.5" r="0.5"/>
 			<circle cx="15.5" cy="24.5" r="0.5"/>
 			<circle cx="17.5" cy="24.5" r="0.5"/>
 			<circle cx="20.5" cy="24.5" r="0.5"/>
@@ -291,10 +299,10 @@
 			<circle cx="25.5" cy="24.5" r="0.5"/>
 			<circle cx="26.5" cy="24.5" r="0.5"/>
 			<circle cx="28.5" cy="24.5" r="0.5"/>
+			<circle cx="29.5" cy="24.5" r="0.5"/>
 			<circle cx="9.5" cy="25.5" r="0.5"/>
 			<circle cx="10.5" cy="25.5" r="0.5"/>
-			<circle cx="11.5" cy="25.5" r="0.5"/>
-			<circle cx="12.5" cy="25.5" r="0.5"/>
+			<circle cx="13.5" cy="25.5" r="0.5"/>
 			<circle cx="17.5" cy="25.5" r="0.5"/>
 			<circle cx="18.5" cy="25.5" r="0.5"/>
 			<circle cx="21.5" cy="25.5" r="0.5"/>
@@ -303,9 +311,11 @@
 			<circle cx="24.5" cy="25.5" r="0.5"/>
 			<circle cx="25.5" cy="25.5" r="0.5"/>
 			<circle cx="27.5" cy="25.5" r="0.5"/>
+			<circle cx="28.5" cy="25.5" r="0.5"/>
 			<circle cx="9.5" cy="26.5" r="0.5"/>
 			<circle cx="10.5" cy="26.5" r="0.5"/>
-			<circle cx="13.5" cy="26.5" r="0.5"/>
+			<circle cx="11.5" cy="26.5" r="0.5"/>
+			<circle cx="12.5" cy="26.5" r="0.5"/>
 			<circle cx="14.5" cy="26.5" r="0.5"/>
 			<circle cx="15.5" cy="26.5" r="0.5"/>
 			<circle cx="16.5" cy="26.5" r="0.5"/>
@@ -315,8 +325,9 @@
 			<circle cx="28.5" cy="26.5" r="0.5"/>
 			<circle cx="29.5" cy="26.5" r="0.5"/>
 			<circle cx="9.5" cy="27.5" r="0.5"/>
+			<circle cx="10.5" cy="27.5" r="0.5"/>
+			<circle cx="11.5" cy="27.5" r="0.5"/>
 			<circle cx="12.5" cy="27.5" r="0.5"/>
-			<circle cx="13.5" cy="27.5" r="0.5"/>
 			<circle cx="16.5" cy="27.5" r="0.5"/>
 			<circle cx="18.5" cy="27.5" r="0.5"/>
 			<circle cx="19.5" cy="27.5" r="0.5"/>
@@ -327,17 +338,16 @@
 			<circle cx="26.5" cy="27.5" r="0.5"/>
 			<circle cx="27.5" cy="27.5" r="0.5"/>
 			<circle cx="28.5" cy="27.5" r="0.5"/>
-			<circle cx="10.5" cy="28.5" r="0.5"/>
-			<circle cx="12.5" cy="28.5" r="0.5"/>
-			<circle cx="15.5" cy="28.5" r="0.5"/>
+			<circle cx="14.5" cy="28.5" r="0.5"/>
 			<circle cx="21.5" cy="28.5" r="0.5"/>
 			<circle cx="22.5" cy="28.5" r="0.5"/>
 			<circle cx="24.5" cy="28.5" r="0.5"/>
 			<circle cx="26.5" cy="28.5" r="0.5"/>
 			<circle cx="28.5" cy="28.5" r="0.5"/>
 			<circle cx="9.5" cy="29.5" r="0.5"/>
-			<circle cx="10.5" cy="29.5" r="0.5"/>
 			<circle cx="11.5" cy="29.5" r="0.5"/>
+			<circle cx="12.5" cy="29.5" r="0.5"/>
+			<circle cx="14.5" cy="29.5" r="0.5"/>
 			<circle cx="17.5" cy="29.5" r="0.5"/>
 			<circle cx="18.5" cy="29.5" r="0.5"/>
 			<circle cx="20.5" cy="29.5" r="0.5"/>
@@ -345,13 +355,13 @@
 			<circle cx="27.5" cy="29.5" r="0.5"/>
 		</g>
 		<!-- EYEFRAME -->
-		<g id="EYEFRAME"  stroke="#011620" fill="none" stroke-width="1" >
+		<g id="EYEFRAME"  stroke="#ed254e" fill="none" stroke-width="1" >
 			<circle cx="4.5" cy="4.5" r="3" />
 			<circle cx="26.5" cy="4.5" r="3" />
 			<circle cx="4.5" cy="26.5" r="3" />
 		</g>
 		<!-- EYEBALL -->
-		<g id="EYEBALL" fill="#011620">
+		<g id="EYEBALL" fill="#c7ef00">
 			<circle cx="4.5" cy="4.5" r="1.75"/>
 			<circle cx="26.5" cy="4.5" r="1.75"/>
 			<circle cx="4.5" cy="26.5" r="1.75"/>
