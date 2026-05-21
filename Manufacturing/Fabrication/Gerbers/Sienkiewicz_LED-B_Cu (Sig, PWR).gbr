@@ -1,6 +1,6 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7+1*%
 %TF.CreationDate,Date%
-%TF.ProjectId,Sienkiewicz_LED,5369656e-6b69-4657-9769-637a5f4c4544,2.1.0*%
+%TF.ProjectId,Sienkiewicz_LED,5369656e-6b69-4657-9769-637a5f4c4544,2.1.0+ (Unreleased)*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
@@ -172,13 +172,13 @@ D15*
 %TO.N,GND*%
 X143850000Y-89984999D03*
 %TO.P,U2,2,SDI*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK*%
+%TO.N,/Project Architecture/Sec B - Shift Register/RS_SDI*%
 X143850000Y-88715000D03*
 %TO.P,U2,3,CLK*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI*%
+%TO.N,/Project Architecture/Sec B - Shift Register/RS_CLK*%
 X143850000Y-87445000D03*
 %TO.P,U2,4,LE/DM1*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
+%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
 X143849999Y-86175000D03*
 %TO.P,U2,5,~{OUT0}*%
 %TO.N,/Project Architecture/Sec B - Shift Register/L1*%
@@ -242,7 +242,7 @@ X153150000Y-88715000D03*
 X153150000Y-89984999D03*
 %TD*%
 D16*
-%TO.P,VCC,1,1*%
+%TO.P,TP2,1,1*%
 %TO.N,+5V*%
 X154500000Y-93000000D03*
 %TD*%
@@ -263,11 +263,11 @@ X160122500Y-88715000D03*
 X157197500Y-88715000D03*
 %TD*%
 D16*
-%TO.P,OE,1,1*%
+%TO.P,TP3,1,1*%
 %TO.N,Net-(U2-SDO)*%
 X158660000Y-86175000D03*
 %TD*%
-%TO.P,GND,1,1*%
+%TO.P,TP1,1,1*%
 %TO.N,GND*%
 X142500000Y-93000000D03*
 %TD*%
@@ -279,7 +279,6 @@ X158025000Y-83000000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L10*%
 X154850000Y-77285000D03*
 %TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
-X142150000Y-86175000D03*
 X143000000Y-97000000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L7*%
 X142150000Y-77285000D03*
@@ -307,6 +306,8 @@ X158660000Y-82365000D03*
 X140245000Y-84270000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L9*%
 X151675000Y-76015000D03*
+%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
+X142150000Y-86175000D03*
 %TD*%
 D11*
 %TO.N,+5V*%
@@ -352,9 +353,6 @@ X143850000Y-88715000D01*
 X135500000Y-90215000D02*
 X135500000Y-103000000D01*
 D12*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
-X143849999Y-86175000D02*
-X142150000Y-86175000D01*
 %TO.N,/Project Architecture/Sec B - Shift Register/L7*%
 X143850000Y-77285000D02*
 X142150000Y-77285000D01*
@@ -426,6 +424,9 @@ X142150000Y-82365000D01*
 %TO.N,/Project Architecture/Sec B - Shift Register/L9*%
 X153150000Y-76015001D02*
 X151675000Y-76015000D01*
+%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
+X143849999Y-86175000D02*
+X142150000Y-86175000D01*
 %TD*%
 %TA.AperFunction,Conductor*%
 %TO.N,GND*%
