@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-10g2e8vt/Sienkiewicz_LED.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-eapsxwpm/Sienkiewicz_LED.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)	CONFORMAL COATING IS NOT REQUIRED.\n\n5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
@@ -62,7 +62,7 @@
     (textvar (name "SHEET_NAME_37") "......................................")
     (textvar (name "SHEET_NAME_38") "......................................")
     (textvar (name "SHEET_NAME_39") "......................................")
-    (textvar (name "SHEET_NAME_4") "Sec A - Shift Register Screw Interface")
+    (textvar (name "SHEET_NAME_4") "Sec A - Shift Register - Screw Interface")
     (textvar (name "SHEET_NAME_40") "......................................")
     (textvar (name "SHEET_NAME_5") "Sec B - Shift Register")
     (textvar (name "SHEET_NAME_6") "Sec C - LED Display")
