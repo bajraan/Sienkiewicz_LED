@@ -1,7 +1,119 @@
 ** Drc report for Sienkiewicz_LED.kicad_pcb **
-** Created on 2026-05-02T11:46:25+0000 **
+** Created on 2026-05-21T14:16:00+0000 **
 
-** Found 20 DRC violations **
+** Found 71 DRC violations **
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK and /Project Architecture/Sec B - Shift Register/RS_SDI)
+    ; error
+    @(137.0 mm, 88.715 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] on B.Cu (Sig, PWR), length 6.8500 mm
+    @(143.85 mm, 88.715 mm): Pad 2 [/Project Architecture/Sec B - Shift Register/RS_SDI] of U2 on B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/RS_LATCH and /Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH)
+    ; error
+    @(143.0 mm, 97.0 mm): Track [/Project Architecture/Sec B - Shift Register/RS_LATCH] on T.Cu (Sig, PWR), length 1.2021 mm
+    @(143.0 mm, 97.0 mm): Via [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L7 and /Project Architecture/Sec C - LED Display/L7)
+    ; error
+    @(142.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 0.4950 mm
+    @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L7 and /Project Architecture/Sec B - Shift Register/L7)
+    ; error
+    @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
+    @(142.15 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 1.5350 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
+    ; error
+    @(146.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.5600 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0751 mm)
+    ; error
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+    @(145.325 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L12 and /Project Architecture/Sec C - LED Display/L12)
+    ; error
+    @(158.66 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L12] on T.Cu (Sig, PWR), length 4.4400 mm
+    @(163.100001 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L12] of D12 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L4 and /Project Architecture/Sec B - Shift Register/L4)
+    ; error
+    @(133.899999 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L4] of D4 on T.Cu (Sig, PWR)
+    @(138.975 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L4] on T.Cu (Sig, PWR), length 5.0750 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI and /Project Architecture/Sec B - Shift Register/RS_CLK)
+    ; error
+    @(137.0 mm, 87.445 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] on B.Cu (Sig, PWR), length 6.8500 mm
+    @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L5 and /Project Architecture/Sec C - LED Display/L5)
+    ; error
+    @(138.34 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L5] on T.Cu (Sig, PWR), length 4.4400 mm
+    @(133.899999 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L5] of D5 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L14 and /Project Architecture/Sec B - Shift Register/L14)
+    ; error
+    @(163.100001 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L14] of D14 on T.Cu (Sig, PWR)
+    @(157.39 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L14] on T.Cu (Sig, PWR), length 5.7100 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L11 and /Project Architecture/Sec C - LED Display/L11)
+    ; error
+    @(159.295 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L11] on T.Cu (Sig, PWR), length 3.8050 mm
+    @(163.100001 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L11] of D11 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L10 and /Project Architecture/Sec B - Shift Register/L10)
+    ; error
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+    @(154.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 0.2650 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L10 and /Project Architecture/Sec B - Shift Register/L10)
+    ; error
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+    @(154.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 0.4950 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L10 and /Project Architecture/Sec B - Shift Register/L10)
+    ; error
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+    @(154.85 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 1.5350 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
+    ; error
+    @(145.940001 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.8697 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L3 and /Project Architecture/Sec B - Shift Register/L3)
+    ; error
+    @(133.899999 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L3] of D3 on T.Cu (Sig, PWR)
+    @(139.61 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L3] on T.Cu (Sig, PWR), length 5.7100 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L13 and /Project Architecture/Sec C - LED Display/L13)
+    ; error
+    @(158.0 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L13] on T.Cu (Sig, PWR), length 5.1000 mm
+    @(163.100001 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L13] of D13 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L9 and /Project Architecture/Sec C - LED Display/L9)
+    ; error
+    @(151.059999 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR), length 0.8697 mm
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L9 and /Project Architecture/Sec B - Shift Register/L9)
+    ; error
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+    @(150.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR), length 0.5600 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0751 mm)
+    ; error
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+    @(151.675 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L6 and /Project Architecture/Sec B - Shift Register/L6)
+    ; error
+    @(133.899999 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L6] of D6 on T.Cu (Sig, PWR)
+    @(137.705 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L6] on T.Cu (Sig, PWR), length 3.8050 mm
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2251 mm)
+    ; error
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+    @(145.325 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2251 mm)
+    ; error
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+    @(151.675 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0193 mm)
+    ; error
+    @(150.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L16] of D16 on T.Cu (Sig, PWR)
+    @(151.5 mm, 104.0 mm): Arc [/Project Architecture/Sec B - Shift Register/L16] on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L1 and /Project Architecture/Sec C - LED Display/L1)
+    ; error
+    @(145.579 mm, 103.97 mm): Arc [/Project Architecture/Sec B - Shift Register/L1] on T.Cu (Sig, PWR)
+    @(146.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L1] of D1 on T.Cu (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0193 mm)
+    ; error
+    @(155.5 mm, 104.0 mm): Arc [/Project Architecture/Sec B - Shift Register/L15] on T.Cu (Sig, PWR)
+    @(154.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L15] of D15 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L2 and /Project Architecture/Sec C - LED Display/L2)
+    ; error
+    @(141.515 mm, 103.97 mm): Arc [/Project Architecture/Sec B - Shift Register/L2] on T.Cu (Sig, PWR)
+    @(142.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L2] of D2 on T.Cu (Sig, PWR)
 [track_dangling]: Track has unconnected end
     ; warning
     @(149.975001 mm, 93.0 mm): Track [+5V] on B.Cu (Sig, PWR), length 3.5250 mm
@@ -62,27 +174,161 @@
 [lib_footprint_mismatch]: Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(158.66 mm, 88.715 mm): Footprint R1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(158.66 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L12] on T.Cu (Sig, PWR), length 4.4400 mm
+    @(163.100001 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L12] of D12 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(154.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 0.2650 mm
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(154.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 0.4950 mm
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(154.85 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 1.5350 mm
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    ; warning
+    @(137.0 mm, 88.715 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] on B.Cu (Sig, PWR), length 6.8500 mm
+    @(143.85 mm, 88.715 mm): Pad 2 [/Project Architecture/Sec B - Shift Register/RS_SDI] of U2 on B.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 0.4950 mm
+    @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.15 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 1.5350 mm
+    @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(158.0 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L13] on T.Cu (Sig, PWR), length 5.1000 mm
+    @(163.100001 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L13] of D13 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(137.705 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L6] on T.Cu (Sig, PWR), length 3.8050 mm
+    @(133.899999 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L6] of D6 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    ; warning
+    @(137.0 mm, 87.445 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] on B.Cu (Sig, PWR), length 6.8500 mm
+    @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(138.34 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L5] on T.Cu (Sig, PWR), length 4.4400 mm
+    @(133.899999 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L5] of D5 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.39 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L14] on T.Cu (Sig, PWR), length 5.7100 mm
+    @(163.100001 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L14] of D14 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.940001 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.8697 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.5600 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(138.975 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L4] on T.Cu (Sig, PWR), length 5.0750 mm
+    @(133.899999 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L4] of D4 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(159.295 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L11] on T.Cu (Sig, PWR), length 3.8050 mm
+    @(163.100001 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L11] of D11 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(139.61 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L3] on T.Cu (Sig, PWR), length 5.7100 mm
+    @(133.899999 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L3] of D3 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(151.059999 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR), length 0.8697 mm
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR), length 0.5600 mm
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(151.5 mm, 104.0 mm): Arc [/Project Architecture/Sec B - Shift Register/L16] on T.Cu (Sig, PWR)
+    @(150.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L16] of D16 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.579 mm, 103.97 mm): Arc [/Project Architecture/Sec B - Shift Register/L1] on T.Cu (Sig, PWR)
+    @(146.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L1] of D1 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.5 mm, 104.0 mm): Arc [/Project Architecture/Sec B - Shift Register/L15] on T.Cu (Sig, PWR)
+    @(154.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L15] of D15 on T.Cu (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(141.515 mm, 103.97 mm): Arc [/Project Architecture/Sec B - Shift Register/L2] on T.Cu (Sig, PWR)
+    @(142.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L2] of D2 on T.Cu (Sig, PWR)
 
 ** Found 0 unconnected pads **
 
-** Found 7 Footprint errors **
-[missing_footprint]: Missing footprint TP1 (TestPoint)
+** Found 20 Footprint errors **
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI).
     ; warning
-[missing_footprint]: Missing footprint TP2 (TestPoint)
+    @(143.85 mm, 88.715 mm): Pad 2 [/Project Architecture/Sec B - Shift Register/RS_SDI] of U2 on B.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK).
     ; warning
-[missing_footprint]: Missing footprint TP3 (TestPoint)
+    @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH).
     ; warning
+    @(143.849999 mm, 86.175 mm): Pad 4 [/Project Architecture/Sec B - Shift Register/RS_LATCH] of U2 on B.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L1) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L1).
+    ; warning
+    @(146.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L1] of D1 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L2) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L2).
+    ; warning
+    @(142.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L2] of D2 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L3) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L3).
+    ; warning
+    @(133.899999 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L3] of D3 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L4) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L4).
+    ; warning
+    @(133.899999 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L4] of D4 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L5) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L5).
+    ; warning
+    @(133.899999 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L5] of D5 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L6) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L6).
+    ; warning
+    @(133.899999 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L6] of D6 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L7) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L7).
+    ; warning
+    @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L8) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L8).
+    ; warning
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L9) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L9).
+    ; warning
+    @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L10) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L10).
+    ; warning
+    @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L11) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L11).
+    ; warning
+    @(163.100001 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L11] of D11 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L12) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L12).
+    ; warning
+    @(163.100001 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L12] of D12 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L13) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L13).
+    ; warning
+    @(163.100001 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L13] of D13 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L14) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L14).
+    ; warning
+    @(163.100001 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L14] of D14 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L15) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L15).
+    ; warning
+    @(154.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L15] of D15 on T.Cu (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L16) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L16).
+    ; warning
+    @(150.5 mm, 104.600001 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L16] of D16 on T.Cu (Sig, PWR)
 [extra_footprint]: Extra footprint
     ; warning
     @(148.5 mm, 81.0 mm): Footprint REF**
-[extra_footprint]: Extra footprint
-    ; warning
-    @(154.5 mm, 93.0 mm): Footprint VCC
-[extra_footprint]: Extra footprint
-    ; warning
-    @(158.66 mm, 86.175 mm): Footprint OE
-[extra_footprint]: Extra footprint
-    ; warning
-    @(142.5 mm, 93.0 mm): Footprint GND
 
 ** End of Report **

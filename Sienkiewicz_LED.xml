@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">c9e8a47</textvar>
-    <textvar name="GIT_HASH_SCH">c9e8a47</textvar>
+    <textvar name="GIT_HASH_PCB">e707053</textvar>
+    <textvar name="GIT_HASH_SCH">8dba9b7</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -88,15 +88,15 @@ Added
 
 -   First version of PCB and Schematic</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">02-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-02</textvar>
+    <textvar name="RELEASE_DATE">21-May-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-05-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 - 2026-05-02</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.1.0</textvar>
+    <textvar name="REVISION">2.1.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -137,12 +137,12 @@ Added
     <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_8">Revision History</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sienkiewicz_LED.kicad_sch</source>
         <comment number="1" value=""/>
@@ -160,7 +160,7 @@ Added
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -178,7 +178,7 @@ Added
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -196,7 +196,7 @@ Added
       <title_block>
         <title>B-B Screw Interface</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sec A - SR Screw Interface.kicad_sch</source>
         <comment number="1" value=""/>
@@ -214,7 +214,7 @@ Added
       <title_block>
         <title>Shift Register</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sec B - Shift Register.kicad_sch</source>
         <comment number="1" value=""/>
@@ -232,7 +232,7 @@ Added
       <title_block>
         <title>LED Display</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sec C - LED Display.kicad_sch</source>
         <comment number="1" value=""/>
@@ -250,7 +250,7 @@ Added
       <title_block>
         <title>Power - Sequencing</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -268,7 +268,7 @@ Added
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -911,7 +911,7 @@ Added
     </net>
     <net code="2" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK" class="Default">
       <node ref="U1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
-      <node ref="U2" pin="2" pinfunction="SDI" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
     </net>
     <net code="3" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH" class="Default">
       <node ref="U1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
@@ -919,7 +919,7 @@ Added
     </net>
     <net code="4" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI" class="Default">
       <node ref="U1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="SDI" pintype="input"/>
     </net>
     <net code="5" name="/Project Architecture/Sec B - Shift Register/L1" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>

@@ -1,4 +1,4 @@
-ERC report (2026-05-02T11:46:24+0000, Encoding UTF8)
+ERC report (2026-05-21T14:15:58+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library '__Sienkiewicz'.
@@ -11,67 +11,67 @@ ERC report (2026-05-02T11:46:24+0000, Encoding UTF8)
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.5588 mm): Symbol D1 [LED_Small]
+    @(1.524 mm, 0.7112 mm): Symbol D1 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.5842 mm): Symbol D2 [LED_Small]
+    @(1.524 mm, 0.7366 mm): Symbol D2 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.6096 mm): Symbol D3 [LED_Small]
+    @(1.524 mm, 0.762 mm): Symbol D3 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.635 mm): Symbol D4 [LED_Small]
+    @(1.524 mm, 0.7874 mm): Symbol D4 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.6604 mm): Symbol D5 [LED_Small]
+    @(1.524 mm, 0.8128 mm): Symbol D5 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.6858 mm): Symbol D6 [LED_Small]
+    @(1.524 mm, 0.8382 mm): Symbol D6 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.7112 mm): Symbol D7 [LED_Small]
+    @(1.524 mm, 0.8636 mm): Symbol D7 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.7366 mm): Symbol D8 [LED_Small]
+    @(1.524 mm, 0.889 mm): Symbol D8 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.762 mm): Symbol D9 [LED_Small]
+    @(1.524 mm, 0.9144 mm): Symbol D9 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.7874 mm): Symbol D10 [LED_Small]
+    @(1.524 mm, 0.9398 mm): Symbol D10 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.8128 mm): Symbol D11 [LED_Small]
+    @(1.524 mm, 0.9652 mm): Symbol D11 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.8382 mm): Symbol D12 [LED_Small]
+    @(1.524 mm, 0.9906 mm): Symbol D12 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.8636 mm): Symbol D13 [LED_Small]
+    @(1.524 mm, 1.016 mm): Symbol D13 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.889 mm): Symbol D14 [LED_Small]
+    @(1.524 mm, 1.0414 mm): Symbol D14 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.9144 mm): Symbol D15 [LED_Small]
+    @(1.524 mm, 1.0668 mm): Symbol D15 [LED_Small]
 
 [lib_symbol_mismatch]: Symbol 'LED_Small' doesn't match copy in library 'Device'
     ; warning
-    @(1.524 mm, 0.9398 mm): Symbol D16 [LED_Small]
+    @(1.524 mm, 1.0922 mm): Symbol D16 [LED_Small]
 
 ***** Sheet /Block Diagram/
 ***** Sheet /Project Architecture/
