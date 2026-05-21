@@ -10819,7 +10819,7 @@
 			)
 		)
 	)
-	(gr_text "HW:2.1.0"
+	(gr_text "HW:2.1.1"
 		(at 135.5 96 0)
 		(layer "B.SilkS")
 		(uuid "32501b99-7d91-41cb-b89d-46645a8d1901")
@@ -10831,7 +10831,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "SW:2.1.1"
+	(gr_text "SW:2.1.X"
 		(at 135.5 98 0)
 		(layer "B.SilkS")
 		(uuid "61fef35d-481d-4d8b-bb9d-0195e3518014")
