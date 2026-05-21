@@ -5,7 +5,7 @@
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
-		(title "B-B Screw Interface")
+		(title "Shift register - Screw Interface")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -629,7 +629,7 @@
 	)
 	(rectangle
 		(start 93.98 45.72)
-		(end 205.74 114.3)
+		(end 205.74 100.33)
 		(stroke
 			(width 1)
 			(type default)
@@ -682,34 +682,10 @@
 		)
 		(uuid "f25578fd-4ab6-4599-95bc-eaa8a509f479")
 	)
-	(text_box "Block Description"
+	(text_box "LAYOUT NOTE:\nSymbol that illustrating the mechanical connection of two PCBs using M3 screws."
 		(exclude_from_sim no)
-		(at 132.08 106.68 0)
-		(size 73.66 7.62)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "02a12ff5-5064-4932-bfad-95d96b987d17")
-	)
-	(text_box "LAYOUT NOTE:\nblablabla"
-		(exclude_from_sim no)
-		(at 132.08 91.44 0)
-		(size 50.8 15.24)
+		(at 96.52 82.55 0)
+		(size 25.4 15.24)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
 			(width 1)
@@ -729,32 +705,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "14f6700f-8ea5-4575-841a-aa899ae31d63")
-	)
-	(text_box "LAYOUT NOTE:\nblablabla"
-		(exclude_from_sim no)
-		(at 99.06 50.8 0)
-		(size 27.94 15.24)
-		(margins 1.4525 1.4525 1.4525 1.4525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "59800026-abce-490f-af73-e553b627145c")
+		(uuid "7d49aaaa-1b19-404e-ad03-396f897cc669")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -778,29 +729,6 @@
 			)
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "DESIGN NOTE:\nblablabla"
-		(exclude_from_sim no)
-		(at 99.06 71.12 0)
-		(size 27.94 38.1)
-		(margins 1.3525 1.3525 1.3525 1.3525)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "e0003229-9448-4893-9fb1-bea9e839bb75")
 	)
 	(junction
 		(at 190.5 68.58)

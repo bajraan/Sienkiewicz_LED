@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Changed
+
+-   B-B connector maping changes restored
+
+### Added
+
+-   requirements section added for documentation
+
 ## [2.1.0] - 2026-05-02
 
 ### Added
