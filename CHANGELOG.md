@@ -4,6 +4,8 @@
 
 ## [2.1.1] - 2026-05-21
 
+## [2.1.1] - 2026-05-21
+
 ### Changed
 
 -   B-B connector maping changes restored
@@ -19,6 +21,8 @@
 -   First version of PCB and Schematic
 
 [Unreleased]: https://github.com/bajraan/Sienkiewicz_LED/compare/2.1.1...HEAD
+
+[2.1.1]: https://github.com/bajraan/Sienkiewicz_LED/compare/2.1.1...2.1.1
 
 [2.1.1]: https://github.com/bajraan/Sienkiewicz_LED/compare/2.1.0...2.1.1
 
