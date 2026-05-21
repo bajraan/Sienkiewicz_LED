@@ -61,7 +61,7 @@
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
 	BOARD SIZE				38.000 × 38.000 mm
-	BOARD THICKNESS		1.660 mm
+	BOARD THICKNESS		1.610 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
 	MIN. HOLE (PTH)			0.250 mm
@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">e707053</textvar>
-    <textvar name="GIT_HASH_SCH">8dba9b7</textvar>
+    <textvar name="GIT_HASH_PCB">ff91115</textvar>
+    <textvar name="GIT_HASH_SCH">ff91115</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -87,6 +87,7 @@
 Added
 
 -   First version of PCB and Schematic</textvar>
+    <textvar name="RELEASE_BODY_2.1.1">Version 2.1.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">21-May-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-05-21</textvar>
@@ -95,6 +96,7 @@ Added
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 - 2026-05-02</textvar>
+    <textvar name="RELEASE_TITLE_2.1.1">Version 2.1.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">2.1.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -192,9 +194,9 @@ Added
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/Project Architecture/Sec A - Shift Register Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
+    <sheet number="4" name="/Project Architecture/Sec A - Shift Register - Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
       <title_block>
-        <title>B-B Screw Interface</title>
+        <title>Shift register - Screw Interface</title>
         <company>BaJRan imgaginary industries</company>
         <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
@@ -248,7 +250,7 @@ Added
     </sheet>
     <sheet number="7" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
-        <title>Power - Sequencing</title>
+        <title>Requirements</title>
         <company>BaJRan imgaginary industries</company>
         <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
@@ -293,11 +295,11 @@ Added
         <field name="Description"/>
       </fields>
       <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
-      <property name="Sheetname" value="Sec A - Shift Register Screw Interface"/>
+      <property name="Sheetname" value="Sec A - Shift Register - Screw Interface"/>
       <property name="Sheetfile" value="Sec A - SR Screw Interface.kicad_sch"/>
       <property name="ki_keywords" value="Sienkiewicz"/>
       <property name="ki_fp_filters" value="Sienkiewicz*"/>
-      <sheetpath names="/Project Architecture/Sec A - Shift Register Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <sheetpath names="/Project Architecture/Sec A - Shift Register - Screw Interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>29870dd0-3b14-4fd1-885d-900d1f811921</tstamps>
     </comp>
     <comp ref="Cd1">
@@ -909,15 +911,15 @@ Added
       <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="24" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="2" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK" class="Default">
+    <net code="2" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK" class="Default">
       <node ref="U1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
     </net>
-    <net code="3" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH" class="Default">
+    <net code="3" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH" class="Default">
       <node ref="U1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
       <node ref="U2" pin="4" pinfunction="LE/DM1" pintype="input"/>
     </net>
-    <net code="4" name="/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI" class="Default">
+    <net code="4" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI" class="Default">
       <node ref="U1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
       <node ref="U2" pin="2" pinfunction="SDI" pintype="input"/>
     </net>

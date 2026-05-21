@@ -1,4 +1,4 @@
-ERC report (2026-05-21T14:15:58+0000, Encoding UTF8)
+ERC report (2026-05-21T20:45:04+0000, Encoding UTF8)
 
 ***** Sheet /
 [footprint_link_issues]: The current configuration does not include the footprint library '__Sienkiewicz'.
@@ -75,7 +75,7 @@ ERC report (2026-05-21T14:15:58+0000, Encoding UTF8)
 
 ***** Sheet /Block Diagram/
 ***** Sheet /Project Architecture/
-***** Sheet /Project Architecture/Sec A - Shift Register Screw Interface/
+***** Sheet /Project Architecture/Sec A - Shift Register - Screw Interface/
 ***** Sheet /Project Architecture/Sec B - Shift Register/
 ***** Sheet /Project Architecture/Sec C - LED Display/
 ***** Sheet /Power - Sequencing/

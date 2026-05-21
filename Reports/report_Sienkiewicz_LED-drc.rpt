@@ -1,5 +1,5 @@
 ** Drc report for Sienkiewicz_LED.kicad_pcb **
-** Created on 2026-05-21T14:16:00+0000 **
+** Created on 2026-05-21T20:45:05+0000 **
 
 ** Found 71 DRC violations **
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK and /Project Architecture/Sec B - Shift Register/RS_SDI)
@@ -10,6 +10,10 @@
     ; error
     @(143.0 mm, 97.0 mm): Track [/Project Architecture/Sec B - Shift Register/RS_LATCH] on T.Cu (Sig, PWR), length 1.2021 mm
     @(143.0 mm, 97.0 mm): Via [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
+    ; error
+    @(146.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.5600 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L7 and /Project Architecture/Sec C - LED Display/L7)
     ; error
     @(142.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 0.4950 mm
@@ -18,14 +22,14 @@
     ; error
     @(142.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L7] of D7 on T.Cu (Sig, PWR)
     @(142.15 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L7] on T.Cu (Sig, PWR), length 1.5350 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
-    ; error
-    @(146.5 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.5600 mm
-    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
 [clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0751 mm)
     ; error
     @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
     @(145.325 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L13 and /Project Architecture/Sec C - LED Display/L13)
+    ; error
+    @(158.0 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L13] on T.Cu (Sig, PWR), length 5.1000 mm
+    @(163.100001 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L13] of D13 on T.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L12 and /Project Architecture/Sec C - LED Display/L12)
     ; error
     @(158.66 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L12] on T.Cu (Sig, PWR), length 4.4400 mm
@@ -34,22 +38,6 @@
     ; error
     @(133.899999 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L4] of D4 on T.Cu (Sig, PWR)
     @(138.975 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L4] on T.Cu (Sig, PWR), length 5.0750 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI and /Project Architecture/Sec B - Shift Register/RS_CLK)
-    ; error
-    @(137.0 mm, 87.445 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] on B.Cu (Sig, PWR), length 6.8500 mm
-    @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L5 and /Project Architecture/Sec C - LED Display/L5)
-    ; error
-    @(138.34 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L5] on T.Cu (Sig, PWR), length 4.4400 mm
-    @(133.899999 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L5] of D5 on T.Cu (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L14 and /Project Architecture/Sec B - Shift Register/L14)
-    ; error
-    @(163.100001 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L14] of D14 on T.Cu (Sig, PWR)
-    @(157.39 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L14] on T.Cu (Sig, PWR), length 5.7100 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L11 and /Project Architecture/Sec C - LED Display/L11)
-    ; error
-    @(159.295 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L11] on T.Cu (Sig, PWR), length 3.8050 mm
-    @(163.100001 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L11] of D11 on T.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L10 and /Project Architecture/Sec B - Shift Register/L10)
     ; error
     @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
@@ -62,22 +50,30 @@
     ; error
     @(154.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L10] of D10 on T.Cu (Sig, PWR)
     @(154.85 mm, 75.749999 mm): Track [/Project Architecture/Sec B - Shift Register/L10] on T.Cu (Sig, PWR), length 1.5350 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L11 and /Project Architecture/Sec C - LED Display/L11)
     ; error
-    @(145.940001 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.8697 mm
-    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
+    @(159.295 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L11] on T.Cu (Sig, PWR), length 3.8050 mm
+    @(163.100001 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L11] of D11 on T.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L3 and /Project Architecture/Sec B - Shift Register/L3)
     ; error
     @(133.899999 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L3] of D3 on T.Cu (Sig, PWR)
     @(139.61 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L3] on T.Cu (Sig, PWR), length 5.7100 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L13 and /Project Architecture/Sec C - LED Display/L13)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L6 and /Project Architecture/Sec B - Shift Register/L6)
     ; error
-    @(158.0 mm, 92.0 mm): Track [/Project Architecture/Sec B - Shift Register/L13] on T.Cu (Sig, PWR), length 5.1000 mm
-    @(163.100001 mm, 92.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L13] of D13 on T.Cu (Sig, PWR)
+    @(133.899999 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L6] of D6 on T.Cu (Sig, PWR)
+    @(137.705 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L6] on T.Cu (Sig, PWR), length 3.8050 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI and /Project Architecture/Sec B - Shift Register/RS_CLK)
+    ; error
+    @(137.0 mm, 87.445 mm): Track [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] on B.Cu (Sig, PWR), length 6.8500 mm
+    @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L9 and /Project Architecture/Sec C - LED Display/L9)
     ; error
     @(151.059999 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR), length 0.8697 mm
     @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L5 and /Project Architecture/Sec C - LED Display/L5)
+    ; error
+    @(138.34 mm, 88.0 mm): Track [/Project Architecture/Sec B - Shift Register/L5] on T.Cu (Sig, PWR), length 4.4400 mm
+    @(133.899999 mm, 88.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L5] of D5 on T.Cu (Sig, PWR)
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L9 and /Project Architecture/Sec B - Shift Register/L9)
     ; error
     @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
@@ -86,10 +82,14 @@
     ; error
     @(150.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L9] of D9 on T.Cu (Sig, PWR)
     @(151.675 mm, 76.015 mm): Via [/Project Architecture/Sec B - Shift Register/L9] on T.Cu (Sig, PWR) - B.Cu (Sig, PWR)
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L6 and /Project Architecture/Sec B - Shift Register/L6)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec C - LED Display/L14 and /Project Architecture/Sec B - Shift Register/L14)
     ; error
-    @(133.899999 mm, 84.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L6] of D6 on T.Cu (Sig, PWR)
-    @(137.705 mm, 84.0 mm): Track [/Project Architecture/Sec B - Shift Register/L6] on T.Cu (Sig, PWR), length 3.8050 mm
+    @(163.100001 mm, 96.0 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L14] of D14 on T.Cu (Sig, PWR)
+    @(157.39 mm, 96.0 mm): Track [/Project Architecture/Sec B - Shift Register/L14] on T.Cu (Sig, PWR), length 5.7100 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Sec B - Shift Register/L8 and /Project Architecture/Sec C - LED Display/L8)
+    ; error
+    @(145.940001 mm, 75.399999 mm): Track [/Project Architecture/Sec B - Shift Register/L8] on T.Cu (Sig, PWR), length 0.8697 mm
+    @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
 [hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2251 mm)
     ; error
     @(146.5 mm, 75.399999 mm): Pad 1 [/Project Architecture/Sec C - LED Display/L8] of D8 on T.Cu (Sig, PWR)
@@ -269,14 +269,95 @@
 
 ** Found 0 unconnected pads **
 
-** Found 20 Footprint errors **
-[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI).
+** Found 47 Footprint errors **
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(133.1 mm, 77.0 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(133.802944 mm, 75.302944 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(133.802944 mm, 78.697056 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(135.5 mm, 74.6 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(135.5 mm, 77.0 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(135.5 mm, 79.4 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(137.197056 mm, 75.302944 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(137.197056 mm, 78.697056 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
+    ; warning
+    @(137.9 mm, 77.0 mm): PTH pad 1 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(159.1 mm, 103.0 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(159.802944 mm, 101.302944 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(159.802944 mm, 104.697056 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(161.5 mm, 100.6 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(161.5 mm, 103.0 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(161.5 mm, 105.4 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(163.197056 mm, 101.302944 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(163.197056 mm, 104.697056 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
+    ; warning
+    @(163.9 mm, 103.0 mm): PTH pad 3 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(133.1 mm, 103.0 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(133.802944 mm, 101.302944 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(133.802944 mm, 104.697056 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(135.5 mm, 100.6 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(135.5 mm, 103.0 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(135.5 mm, 105.4 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(137.197056 mm, 101.302944 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(137.197056 mm, 104.697056 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
+    ; warning
+    @(137.9 mm, 103.0 mm): PTH pad 4 [/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK] of U1
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_SDI) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI).
     ; warning
     @(143.85 mm, 88.715 mm): Pad 2 [/Project Architecture/Sec B - Shift Register/RS_SDI] of U2 on B.Cu (Sig, PWR)
-[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK).
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_CLK) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK).
     ; warning
     @(143.85 mm, 87.445 mm): Pad 3 [/Project Architecture/Sec B - Shift Register/RS_CLK] of U2 on B.Cu (Sig, PWR)
-[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH).
+[net_conflict]: Pad net (/Project Architecture/Sec B - Shift Register/RS_LATCH) doesn't match net given by schematic (/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH).
     ; warning
     @(143.849999 mm, 86.175 mm): Pad 4 [/Project Architecture/Sec B - Shift Register/RS_LATCH] of U2 on B.Cu (Sig, PWR)
 [net_conflict]: Pad net (/Project Architecture/Sec C - LED Display/L1) doesn't match net given by schematic (/Project Architecture/Sec B - Shift Register/L1).
