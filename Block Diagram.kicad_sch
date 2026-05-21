@@ -8118,7 +8118,7 @@
 		)
 		(uuid "1953318b-4167-4a09-98af-8780ae0027d2")
 	)
-	(text_box "PA1"
+	(text_box "PB0"
 		(exclude_from_sim no)
 		(at 264.16 128.27 0)
 		(size 7.62 7.62)
@@ -8307,7 +8307,7 @@
 		)
 		(uuid "2c7a940b-959c-4e0c-a2a0-36f36d980bf2")
 	)
-	(text_box "PB0"
+	(text_box "PA1"
 		(exclude_from_sim no)
 		(at 276.86 128.27 0)
 		(size 7.62 7.62)
@@ -8615,7 +8615,7 @@
 		(size 7.62 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
-			(width -0.0001)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -9084,7 +9084,7 @@
 		(size 7.62 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
-			(width -0.0001)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -9457,7 +9457,7 @@
 		(size 7.62 7.62)
 		(margins 1.7144 1.7144 1.7144 1.7144)
 		(stroke
-			(width -0.0001)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
