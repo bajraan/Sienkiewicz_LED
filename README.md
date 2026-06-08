@@ -1,6 +1,13 @@
 <p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
+  <img alt="Logo" width="33%" src="Logos/dummy_logo.png">
 </p>
+
+# Sienkiewicz PCB
+
+Sienkiewicz PCB project realized in KiCAD 9
+
+> 🔗 Project main system repository: https://github.com/bajraan/Sienkiewicz__3ART00__SYSTEM
+
 
 <h1 align="center">3ART13 LED</h1>
 
@@ -8,10 +15,6 @@
   <a href="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
     <img alt="CI Badge" src="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
-</p>
-
-<p align="center" width="100%">
-    <img src="Images/dummy_image.png">
 </p>
 
 ***
