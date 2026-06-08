@@ -1,5 +1,5 @@
 ** Drc report for Sienkiewicz_LED.kicad_pcb **
-** Created on 2026-05-21T22:24:53+0000 **
+** Created on 2026-06-08T17:38:28+0000 **
 
 ** Found 71 DRC violations **
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK and /Project Architecture/Sec B - Shift Register/RS_SDI)
