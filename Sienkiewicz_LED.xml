@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">3c0719a</textvar>
+    <textvar name="GIT_HASH_PCB">c7cddf3</textvar>
     <textvar name="GIT_HASH_SCH">ff91115</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -869,10 +869,10 @@ Added
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="SDI" type="bidirectional"/>
+        <pin num="1" name="CLK" type="bidirectional"/>
         <pin num="2" name="VCC" type="power_in"/>
         <pin num="3" name="LATCH" type="bidirectional"/>
-        <pin num="4" name="CLK" type="bidirectional"/>
+        <pin num="4" name="DAT" type="bidirectional"/>
         <pin num="5" name="GND" type="power_in"/>
       </pins>
     </libpart>
@@ -912,7 +912,7 @@ Added
       <node ref="U2" pin="24" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK" class="Default">
-      <node ref="U1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="CLK" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
     </net>
     <net code="3" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH" class="Default">
@@ -920,7 +920,7 @@ Added
       <node ref="U2" pin="4" pinfunction="LE/DM1" pintype="input"/>
     </net>
     <net code="4" name="/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI" class="Default">
-      <node ref="U1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="DAT" pintype="bidirectional"/>
       <node ref="U2" pin="2" pinfunction="SDI" pintype="input"/>
     </net>
     <net code="5" name="/Project Architecture/Sec B - Shift Register/L1" class="Default">
