@@ -61,13 +61,13 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI*%
 X135500000Y-90215000D02*
 G75*
 G02*
 X137000000Y-88715000I1500000J0D01*
 G01*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK*%
 X137000000Y-87445000D02*
 G75*
 G02*
@@ -101,8 +101,8 @@ X159500000Y-93000000I-2000000J0D01*
 G01*
 %TD*%
 D13*
-%TO.P,U1,1,SDI*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI*%
+%TO.P,U1,1,CLK*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK*%
 X133100000Y-77000000D03*
 X133802944Y-75302944D03*
 X133802944Y-78697056D03*
@@ -128,7 +128,7 @@ X163197056Y-75302944D03*
 X163197056Y-78697056D03*
 X163900000Y-77000000D03*
 %TO.P,U1,3,LATCH*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH*%
 X159100000Y-103000000D03*
 X159802944Y-101302944D03*
 X159802944Y-104697056D03*
@@ -140,8 +140,8 @@ X161500000Y-105400000D03*
 X163197056Y-101302944D03*
 X163197056Y-104697056D03*
 X163900000Y-103000000D03*
-%TO.P,U1,4,CLK*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK*%
+%TO.P,U1,4,DAT*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI*%
 X133100000Y-103000000D03*
 X133802944Y-101302944D03*
 X133802944Y-104697056D03*
@@ -172,13 +172,13 @@ D15*
 %TO.N,GND*%
 X143850000Y-89984999D03*
 %TO.P,U2,2,SDI*%
-%TO.N,/Project Architecture/Sec B - Shift Register/RS_SDI*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI*%
 X143850000Y-88715000D03*
 %TO.P,U2,3,CLK*%
-%TO.N,/Project Architecture/Sec B - Shift Register/RS_CLK*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK*%
 X143850000Y-87445000D03*
 %TO.P,U2,4,LE/DM1*%
-%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH*%
 X143849999Y-86175000D03*
 %TO.P,U2,5,~{OUT0}*%
 %TO.N,/Project Architecture/Sec B - Shift Register/L1*%
@@ -278,7 +278,8 @@ X155485000Y-85540000D03*
 X158025000Y-83000000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L10*%
 X154850000Y-77285000D03*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH*%
+X142150000Y-86175000D03*
 X143000000Y-97000000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L7*%
 X142150000Y-77285000D03*
@@ -306,8 +307,6 @@ X158660000Y-82365000D03*
 X140245000Y-84270000D03*
 %TO.N,/Project Architecture/Sec B - Shift Register/L9*%
 X151675000Y-76015000D03*
-%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
-X142150000Y-86175000D03*
 %TD*%
 D11*
 %TO.N,+5V*%
@@ -347,12 +346,15 @@ X153150001Y-79825000D01*
 X153150000Y-77285000D02*
 X154850000Y-77285000D01*
 D10*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_CLK*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_SDI*%
 X137000000Y-88715000D02*
 X143850000Y-88715000D01*
 X135500000Y-90215000D02*
 X135500000Y-103000000D01*
 D12*
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH*%
+X143849999Y-86175000D02*
+X142150000Y-86175000D01*
 %TO.N,/Project Architecture/Sec B - Shift Register/L7*%
 X143850000Y-77285000D02*
 X142150000Y-77285000D01*
@@ -382,7 +384,7 @@ X153150000Y-83635000D01*
 X156120000Y-84905000D02*
 X154850000Y-83635000D01*
 D10*
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_SDI*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_CLK*%
 X135500000Y-85945000D02*
 X135500000Y-77000000D01*
 X137000000Y-87445000D02*
@@ -424,9 +426,6 @@ X142150000Y-82365000D01*
 %TO.N,/Project Architecture/Sec B - Shift Register/L9*%
 X153150000Y-76015001D02*
 X151675000Y-76015000D01*
-%TO.N,/Project Architecture/Sec B - Shift Register/RS_LATCH*%
-X143849999Y-86175000D02*
-X142150000Y-86175000D01*
 %TD*%
 %TA.AperFunction,Conductor*%
 %TO.N,GND*%
@@ -4129,7 +4128,7 @@ G37*
 %TD.AperFunction*%
 %TD*%
 %TA.AperFunction,Conductor*%
-%TO.N,/Project Architecture/Sec A - Shift Register Screw Interface/SR_LATCH*%
+%TO.N,/Project Architecture/Sec A - Shift Register - Screw Interface/SR_LATCH*%
 G36*
 X143084138Y-96003274D02*
 G01*
